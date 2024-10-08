@@ -1,0 +1,9 @@
+x=1
+y=2 
+z=2 
+print(x)
+print(y)
+print(z)
+print(id(x))
+print(id(y))
+print(id(z))

@@ -1,0 +1,225 @@
+01:32:47 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:32:48 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001CCC57A95E0>
+01:32:48 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000001CCC60A66A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:32:48 AM: DEBUG [usuario_dao.py:31] Usuario a insertar: Usuario: None superman krypton
+01:32:48 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:32:48 AM: ERROR [cursor_del_pool.py:19] Ocurrió una excepción, se hace rollback: relation "usuario" does not exist
+LINE 1: INSERT INTO usuario(username, password) VALUES('superman', '...
+                    ^
+ <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x000001CCC7BC0100>
+01:32:48 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000001CCC60A66A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:33:38 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:33:38 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000021A569C5640>
+01:33:38 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000021A5727B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:33:38 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+01:33:38 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:33:38 AM: ERROR [cursor_del_pool.py:19] Ocurrió una excepción, se hace rollback: relation "usuario" does not exist
+LINE 1: SELECT * FROM usuario ORDER BY id_usuario
+                      ^
+ <class 'psycopg2.errors.UndefinedTable'> <traceback object at 0x0000021A58D589C0>
+01:33:38 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000021A5727B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:49:51 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:49:52 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000190ED345640>
+01:49:52 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000190ED73B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:49:52 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+01:49:52 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:49:52 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+01:49:52 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x00000190ED73B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:49:52 AM: INFO [menu_app_usuario.py:17] Usuario: 1 superman krypton
+01:49:52 AM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+01:50:10 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:50:10 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000190ED73B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:50:10 AM: DEBUG [usuario_dao.py:31] Usuario a insertar: Usuario: None luisa lein
+01:50:10 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:50:10 AM: ERROR [cursor_del_pool.py:19] Ocurrió una excepción, se hace rollback: duplicate key value violates unique constraint "usuario_pkey"
+DETAIL:  Key (id_usuario)=(1) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x00000190EF230040>
+01:50:10 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x00000190ED73B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:50:27 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:50:27 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002B2FDD45640>
+01:50:27 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002B2FE13B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:50:27 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+01:50:27 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:50:27 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+01:50:27 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000002B2FE13B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:50:27 AM: INFO [menu_app_usuario.py:17] Usuario: 1 superman krypton
+01:50:27 AM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+01:51:04 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:51:04 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002B2FE13B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:51:04 AM: DEBUG [usuario_dao.py:39] Usuario a actualizar Usuario: 1 kakaroto vegita
+01:51:04 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:51:04 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+01:51:04 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000002B2FE13B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:51:04 AM: INFO [menu_app_usuario.py:30] usuarios actualizados: 1
+01:51:06 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:51:06 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002B2FE13B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:51:06 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+01:51:06 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:51:06 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+01:51:06 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000002B2FE13B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:51:06 AM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+01:51:06 AM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+01:51:27 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:51:27 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000002B2FE13B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:51:27 AM: DEBUG [usuario_dao.py:31] Usuario a insertar: Usuario: None x y
+01:51:27 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:51:27 AM: ERROR [cursor_del_pool.py:19] Ocurrió una excepción, se hace rollback: duplicate key value violates unique constraint "usuario_pkey"
+DETAIL:  Key (id_usuario)=(2) already exists.
+ <class 'psycopg2.errors.UniqueViolation'> <traceback object at 0x000002B2FFC08A00>
+01:51:27 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000002B2FE13B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:52:29 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:52:29 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000251C0F455E0>
+01:52:29 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000251C180B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:52:29 AM: DEBUG [usuario_dao.py:31] Usuario a insertar: Usuario: None r ttt
+01:52:29 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:52:29 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+01:52:29 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x00000251C180B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:52:29 AM: INFO [menu_app_usuario.py:23] Usuarios insertados: 1
+01:52:40 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:52:40 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000251C180B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:52:40 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+01:52:40 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:52:40 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+01:52:40 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x00000251C180B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:52:40 AM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+01:52:40 AM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+01:52:40 AM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+01:52:58 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:52:58 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000251C180B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:52:58 AM: DEBUG [usuario_dao.py:31] Usuario a insertar: Usuario: None www rrr
+01:52:58 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:52:58 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+01:52:58 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x00000251C180B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:52:58 AM: INFO [menu_app_usuario.py:23] Usuarios insertados: 1
+01:53:02 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:53:02 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x00000251C180B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:53:02 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+01:53:02 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:53:02 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+01:53:02 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x00000251C180B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:53:02 AM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+01:53:02 AM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+01:53:02 AM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+01:53:02 AM: INFO [menu_app_usuario.py:17] Usuario: 4 www rrr
+01:53:44 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:53:44 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000028CF52755E0>
+01:53:44 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000028CF566B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:53:44 AM: DEBUG [usuario_dao.py:47] Usuario a eliminar: Usuario: 4 None None
+01:53:44 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:53:44 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+01:53:44 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000028CF566B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:53:44 AM: INFO [menu_app_usuario.py:35] usuarios eliminados: 1
+01:53:47 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:53:47 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000028CF566B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:53:47 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+01:53:47 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:53:47 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+01:53:47 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000028CF566B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:53:47 AM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+01:53:47 AM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+01:53:47 AM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+01:53:53 AM: INFO [menu_app_usuario.py:37] Salimos de la aplicación...
+01:56:34 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+01:56:34 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001DA60675640>
+01:56:34 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000001DA60A6B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:56:34 AM: DEBUG [usuario_dao.py:19] Seleccionando usuarios
+01:56:34 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+01:56:34 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+01:56:34 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000001DA60A6B590; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+01:56:34 AM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+01:56:34 AM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+01:56:34 AM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+01:56:34 AM: INFO [menu_app_usuario.py:17] Usuario: 5 vegeta radis
+02:18:58 AM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+02:18:58 AM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000026F6B455640>
+02:18:58 AM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x0000026F6BD276A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:18:58 AM: DEBUG [usuario_dao.py:18] Seleccionando usuarios
+02:18:58 AM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+02:18:58 AM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+02:18:58 AM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x0000026F6BD276A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:18:58 AM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+02:18:58 AM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+02:18:58 AM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+02:18:58 AM: INFO [menu_app_usuario.py:17] Usuario: 5 vegeta radis
+02:19:31 AM: INFO [logger_base.py:13] Mensaje a nivel info
+02:19:31 AM: WARNING [logger_base.py:14] Mensaje a nivel de warning
+02:19:31 AM: ERROR [logger_base.py:15] Mensaje a nivel de error
+02:19:31 AM: CRITICAL [logger_base.py:16] Mensaje a nivel critico
+02:20:06 AM: INFO [logger_base.py:13] Mensaje a nivel info
+02:20:06 AM: WARNING [logger_base.py:14] Mensaje a nivel de warning
+02:20:06 AM: ERROR [logger_base.py:15] Mensaje a nivel de error
+02:20:06 AM: CRITICAL [logger_base.py:16] Mensaje a nivel critico
+02:20:29 AM: DEBUG [logger_base.py:12] Mensaje a nivel debug
+02:20:29 AM: INFO [logger_base.py:13] Mensaje a nivel info
+02:20:29 AM: WARNING [logger_base.py:14] Mensaje a nivel de warning
+02:20:29 AM: ERROR [logger_base.py:15] Mensaje a nivel de error
+02:20:29 AM: CRITICAL [logger_base.py:16] Mensaje a nivel critico
+02:20:50 AM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+02:20:50 AM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+02:20:50 AM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+02:20:50 AM: INFO [menu_app_usuario.py:17] Usuario: 5 vegeta radis
+04:40:16 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+04:40:16 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+04:40:16 PM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+04:40:16 PM: INFO [menu_app_usuario.py:17] Usuario: 5 vegeta radis
+04:41:22 PM: INFO [menu_app_usuario.py:23] Usuarios insertados: 1
+04:41:27 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+04:41:27 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+04:41:27 PM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+04:41:27 PM: INFO [menu_app_usuario.py:17] Usuario: 5 vegeta radis
+04:41:27 PM: INFO [menu_app_usuario.py:17] Usuario: 6 juna perez
+04:41:52 PM: INFO [menu_app_usuario.py:30] usuarios actualizados: 1
+04:41:54 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+04:41:54 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+04:41:54 PM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+04:41:54 PM: INFO [menu_app_usuario.py:17] Usuario: 5 vegeta radis
+04:41:54 PM: INFO [menu_app_usuario.py:17] Usuario: 6 pepita look
+04:42:04 PM: INFO [menu_app_usuario.py:35] usuarios eliminados: 1
+04:42:06 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+04:42:06 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+04:42:06 PM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+04:42:06 PM: INFO [menu_app_usuario.py:17] Usuario: 5 vegeta radis
+05:00:34 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+05:00:34 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+05:00:34 PM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+05:00:34 PM: INFO [menu_app_usuario.py:17] Usuario: 5 vegeta radis
+05:01:08 PM: DEBUG [cursor_del_pool.py:10] Incio del método with __enter__
+05:01:08 PM: DEBUG [conexion.py:25] Creación del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001E50ED75640>
+05:01:08 PM: DEBUG [conexion.py:36] Conexión obtenida del pool: <connection object at 0x000001E50F6776A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:01:08 PM: DEBUG [usuario_dao.py:18] Seleccionando usuarios
+05:01:08 PM: DEBUG [cursor_del_pool.py:16] Se ejecuta método __exit__
+05:01:08 PM: DEBUG [cursor_del_pool.py:22] Commit de la transacción
+05:01:08 PM: DEBUG [conexion.py:42] Regresamos la conexión al pool: <connection object at 0x000001E50F6776A0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:01:08 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+05:01:08 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+05:01:08 PM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+05:01:08 PM: INFO [menu_app_usuario.py:17] Usuario: 5 vegeta radis
+05:01:42 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+05:01:42 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+05:01:42 PM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+05:01:42 PM: INFO [menu_app_usuario.py:17] Usuario: 5 vegeta radis
+05:03:44 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+05:03:44 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+05:03:44 PM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+05:03:44 PM: INFO [menu_app_usuario.py:17] Usuario: 5 vegeta radis
+05:03:56 PM: INFO [menu_app_usuario.py:37] usuarios eliminados: 1
+05:03:57 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+05:03:57 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+05:03:57 PM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+05:04:00 PM: INFO [menu_app_usuario.py:39] Salimos de la aplicación...
+05:04:07 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+05:04:07 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+05:04:07 PM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+05:04:14 PM: INFO [menu_app_usuario.py:37] usuarios eliminados: 0
+05:04:16 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+05:04:16 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+05:04:16 PM: INFO [menu_app_usuario.py:17] Usuario: 3 r ttt
+05:04:22 PM: INFO [menu_app_usuario.py:37] usuarios eliminados: 1
+05:04:32 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+05:04:32 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor
+05:05:32 PM: INFO [logger_base.py:13] Mensaje a nivel info
+05:05:32 PM: WARNING [logger_base.py:14] Mensaje a nivel de warning
+05:05:32 PM: ERROR [logger_base.py:15] Mensaje a nivel de error
+05:05:32 PM: CRITICAL [logger_base.py:16] Mensaje a nivel critico
+05:05:34 PM: INFO [menu_app_usuario.py:17] Usuario: 1 kakaroto vegita
+05:05:34 PM: INFO [menu_app_usuario.py:17] Usuario: 2 lex luthor

@@ -1,0 +1,594 @@
+10:46:13 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x00000202C7C348C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+10:46:13 AM: DEBUG [conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x00000202C9ACA200; closed: 0>
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 1, Nombre: bn,
+            Apellido: b, Email: b@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 2, Nombre: Ivonne,
+            Apellido: Gutierrez, Email: igutierrez@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 4, Nombre: pedro,
+            Apellido: gomez, Email: x@y.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 5, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 6, Nombre: Marcos,
+            Apellido: Cantu, Email: mcantu@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 7, Nombre: Angel,
+            Apellido: Quintana, Email: aquintana@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 8, Nombre: Maria,
+            Apellido: Gonzalez, Email: mgonzalez@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 9, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 10, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 11, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 12, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 13, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 14, Nombre: Carlos,
+            Apellido: Laraahgsdjasgdajsdgjadgsjasgd, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 15, Nombre: Carlos,
+            Apellido: Laraahgsdjasgdajsdgjadgsjasgd, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 16, Nombre: Carlos,
+            Apellido: Laraahgsdjasgdajsdgjadgsjasgdrewwwwwwwwwwwer, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 17, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 18, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 19, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 20, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 21, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 22, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 24, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 25, Nombre: clark,
+            Apellido: kent, Email: superman@krytpn.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 26, Nombre: x,
+            Apellido: Cantu, Email: mcantu@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 27, Nombre: y,
+            Apellido: Quintana, Email: aquintana@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 28, Nombre: z,
+            Apellido: Gonzalez, Email: mgonzalez@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 29, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 30, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 31, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 32, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 33, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 34, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 36, Nombre: M,
+            Apellido: E, Email: ma@mail.com
+        
+10:46:13 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 37, Nombre: a,
+            Apellido: a, Email: as@mail.com
+        
+04:54:26 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000002A96AFA48C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+04:54:26 AM: DEBUG [conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x000002A96CE39F20; closed: 0>
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 2, Nombre: Ivonne,
+            Apellido: Gutierrez, Email: igutierrez@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 4, Nombre: pedro,
+            Apellido: gomez, Email: x@y.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 6, Nombre: Marcos,
+            Apellido: Cantu, Email: mcantu@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 10, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 11, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 12, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 13, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 14, Nombre: Carlos,
+            Apellido: Laraahgsdjasgdajsdgjadgsjasgd, Email: clara@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 15, Nombre: Carlos,
+            Apellido: Laraahgsdjasgdajsdgjadgsjasgd, Email: clara@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 16, Nombre: Carlos,
+            Apellido: Laraahgsdjasgdajsdgjadgsjasgdrewwwwwwwwwwwer, Email: clara@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 17, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 18, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 19, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 20, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 21, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 22, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 24, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 25, Nombre: clark,
+            Apellido: kent, Email: superman@krytpn.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 26, Nombre: x,
+            Apellido: Cantu, Email: mcantu@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 27, Nombre: y,
+            Apellido: Quintana, Email: aquintana@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 28, Nombre: z,
+            Apellido: Gonzalez, Email: mgonzalez@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 29, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 30, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 31, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 32, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 33, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 34, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 36, Nombre: M,
+            Apellido: E, Email: ma@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 37, Nombre: a,
+            Apellido: a, Email: as@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 38, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 39, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 40, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 41, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 42, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 43, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 44, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 45, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 46, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 47, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 48, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 49, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 50, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 51, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 52, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 53, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 54, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 55, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 56, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 57, Nombre: mujer,
+            Apellido: maravilla, Email: mmaravilla@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 58, Nombre: clark9,
+            Apellido: kent9, Email: superman9@9krytpn.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 59, Nombre: x,
+            Apellido: Cantu, Email: mcantu@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 60, Nombre: y,
+            Apellido: Quintana, Email: aquintana@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 61, Nombre: z,
+            Apellido: Gonzalez, Email: mgonzalez@mail.com
+        
+04:54:26 AM: DEBUG [persona_dao.py:28] 
+            Id Persona: 62, Nombre: M,
+            Apellido: E, Email: ma@mail.com
+        
+02:59:32 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000017367D748C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:59:32 PM: DEBUG [conexion.py:36] Se abrió correctamente el cursor: <cursor object at 0x000001736A0C9F20; closed: 0>
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 2, Nombre: Juan,
+            Apellido: Perez, Email: jperez@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 6, Nombre: Marcos,
+            Apellido: Cantu, Email: mcantu@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 10, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 11, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 12, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 13, Nombre: Carlos,
+            Apellido: Lara, Email: clara@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 14, Nombre: Carlos,
+            Apellido: Laraahgsdjasgdajsdgjadgsjasgd, Email: clara@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 15, Nombre: Carlos,
+            Apellido: Laraahgsdjasgdajsdgjadgsjasgd, Email: clara@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 16, Nombre: Carlos,
+            Apellido: Laraahgsdjasgdajsdgjadgsjasgdrewwwwwwwwwwwer, Email: clara@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 17, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 18, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 19, Nombre: Alex,
+            Apellido: Rojas, Email: arojas@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 20, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 21, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 22, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 24, Nombre: Carlos,
+            Apellido: Laraa, Email: clara@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 25, Nombre: clark,
+            Apellido: kent, Email: superman@krytpn.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 26, Nombre: x,
+            Apellido: Cantu, Email: mcantu@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 27, Nombre: y,
+            Apellido: Quintana, Email: aquintana@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 28, Nombre: z,
+            Apellido: Gonzalez, Email: mgonzalez@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 29, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 30, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 31, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 32, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 33, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 34, Nombre: Maria,
+            Apellido: Esparza, Email: mesparza@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 36, Nombre: M,
+            Apellido: E, Email: ma@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 37, Nombre: a,
+            Apellido: a, Email: as@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 38, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 39, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 40, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 41, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 42, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 43, Nombre: Pedro,
+            Apellido: Najera, Email: x@y.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 44, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 45, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 46, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 47, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 48, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 49, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 50, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 51, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 52, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 53, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 54, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 55, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 56, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 57, Nombre: mujer,
+            Apellido: maravilla, Email: mmaravilla@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 58, Nombre: clark9,
+            Apellido: kent9, Email: superman9@9krytpn.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 59, Nombre: x,
+            Apellido: Cantu, Email: mcantu@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 60, Nombre: y,
+            Apellido: Quintana, Email: aquintana@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 61, Nombre: z,
+            Apellido: Gonzalez, Email: mgonzalez@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 62, Nombre: M,
+            Apellido: E, Email: ma@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 63, Nombre: Pedro,
+            Apellido: Najera, Email: test@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 64, Nombre: Pedro3,
+            Apellido: Najera3, Email: test55@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 65, Nombre: Pedro3222,
+            Apellido: Najera3222, Email: test55555@gmail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 66, Nombre: Alejandrax,
+            Apellido: Tellezx, Email: xatellez@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 67, Nombre: Alejandrax2,
+            Apellido: Tellezx2, Email: x3atellez@mail.com
+        
+02:59:32 PM: DEBUG [persona_dao.py:28] 
+            Id Persona: 68, Nombre: Alejandrax2,
+            Apellido: Tellezx2, Email: x3atellez@mail.com
+        
