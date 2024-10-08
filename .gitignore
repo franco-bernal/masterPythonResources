@@ -1,0 +1,10 @@
+# Ignorar carpetas de entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Ignorar archivos y carpetas de PyCharm
+.idea/
